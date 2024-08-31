@@ -8,8 +8,48 @@
 img {
   height: 250px;
   width: auto;
+  padding: 20px;
 }
 
 header {
   font-size: 2em;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+article {
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.profile-section {
+  padding-bottom: 50px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+.audio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+iframe {
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    height: 200px;
+    width: auto;
+    padding: 20px;
+  }
+  iframe {
+    width: auto;
+    height: 200px;
+  }
 }
