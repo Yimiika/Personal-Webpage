@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="./images/altlogo.png" height="60px" />
+    <h3>Already an AltSchooler? <a href="">Sign in!</a></h3>
+    <br />
+    <h2>Signup</h2>
+    <p>Take the next steps to apply at AltSchool Africa</p>
+
+    <form>
+      <div>
+        <div>
+          <label for="firstname">First name</label>
+          <input type="text" id="firstname" placeholder="Enter first name" />
+        </div>
+        <div>
+          <label for="lastname">Last name</label>
+          <input type="text" id="lastname" placeholder="Enter last name" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="gender">Gender</label>
+          <select name="Gender" id="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+          </select>
+        </div>
+        <div>
+          <label for="dateofbirth">Date of Birth</label>
+          <input type="date" id="dateofbirth" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="emailaddress">Email address</label>
+          <input
+            type="text"
+            id="emailaddress"
+            placeholder="Enter email address"
+          />
+        </div>
+        <div>
+          <label for="phonenumber">Phone number</label>
+          <input type="text" id="phonenumber" placeholder="08154387000" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="country">Country</label>
+          <select name="Country" placeholder="Select your country">
+            <option value="">Select your country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Nigeria">Nigeria</option>
+          </select>
+        </div>
+        <div>
+          <label for="residence">State/City of Residence</label>
+          <input
+            type="text"
+            id="residence"
+            placeholder="Enter your state of residence"
+          />
+        </div>
+      </div>
+      <div class="channel">
+        <label for="channel">How did you hear about us?</label>
+        <select name="channel" id="channel">
+          <option value="">Select channel</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Youtube">Youtube</option>
+        </select>
+      </div>
+      <div>
+        <div>
+          <label for="pwd">Password</label>
+          <input type="password" id="pwd" name="pwd" />
+        </div>
+        <div>
+          <label for="confirm_pwd">Confirm Password</label>
+          <input type="password" id="confirm_pwd" name="confirm_pwd" />
+        </div>
+      </div>
+    </form>
+    <p>
+      By clicking continue, I agree to
+      <a href="https://www.altschoolafrica.com/terms-and-conditions"
+        >Terms of Use</a
+      >
+      and acknowledge that I have read the
+      <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a>
+    </p>
+    <input class="submit" type="submit" value="Submit" />
+  </body>
+</html>
